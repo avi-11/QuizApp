@@ -1,0 +1,112 @@
+.QnA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question {
+  font-size: 3rem;
+  background-color: whitesmoke;
+  border-radius: 12px;
+
+  text-align: center;
+  border: 2px solid gray;
+}
+
+.option {
+  background-color: white;
+  border-radius: 1rem;
+  min-width: 30rem;
+  padding: 1rem 3rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 1.5rem;
+  transition-duration: 1s;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.option:hover {
+  transform: scale(1.1);
+  background-color: #e7d533;
+}
+
+.questionNo {
+  font-size: 2rem;
+  color: white;
+  padding: 1rem 2rem;
+  border: 2px solid black;
+}
+
+.pagNo {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+}
+
+.green {
+  background-color: greenyellow;
+}
+
+.wrong {
+  background-color: red;
+}
+
+.attempted {
+  background-color: salmon;
+}
+
+.left {
+  position: absolute;
+  top: 40%;
+  margin-left: 5rem;
+}
+
+.right {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  margin-right: 5rem;
+}
+
+.Qpanel {
+  min-width: 70%;
+}
+
+.flag {
+  position: relative;
+  top: 6.2rem;
+  left: 5rem;
+}
+
+.flagged {
+  background-color: hotpink;
+}
+
+.skip {
+  position: absolute;
+  top: 6.2rem;
+  right: 20%;
+}
+
+.disable {
+  pointer-events: none;
+}
+
+.end {
+  display: inline-block;
+  position: absolute;
+  right: 2rem;
+  top: 3rem;
+  font-size: 1.1rem;
+  color: white;
+  background: blueviolet;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+  margin: 1rem;
+}
