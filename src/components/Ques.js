@@ -27,6 +27,7 @@ const Ques = ({
 
     setCQ(JSON.parse(localStorage.getItem("currentQues")));
     localStorage.setItem("Score", JSON.stringify(score));
+    //eslint-disable-next-line
   }, [currentQ]);
 
   // const setTheFlag = (obj) => {
@@ -59,7 +60,7 @@ const Ques = ({
                   Skip(q.quesNo);
                   handleClick(q.quesNo + 2);
                 }}
-                class="fa fa-forward fa-2x skip"
+                className="fa fa-forward fa-2x skip"
               ></i>
               <p className="question" key={q.quesNo}>
                 {q.question}
@@ -132,19 +133,20 @@ const Ques = ({
             onClick={(e) => {
               q.quesNo !== 1 ? handleClick(q.quesNo - 1) : console.log("over");
             }}
-            class="fa fa-chevron-circle-left fa-5x left"
+            className="fa fa-chevron-circle-left fa-5x left"
           ></i>
           <i
             onClick={(e) => {
               q.quesNo !== 10 ? handleClick(q.quesNo + 1) : console.log("over");
             }}
-            class="fa fa-chevron-circle-right fa-5x right"
+            className="fa fa-chevron-circle-right fa-5x right"
           ></i>
         </div>
       ))}
 
       <div className="pagNo">
         {questions.map((pObj) => (
+          //eslint-disable-next-line
           <a
             className={
               pObj.flagged
