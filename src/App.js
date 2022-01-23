@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
 import Home from "./components/Home";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Questions from "./components/Questions";
 import Result from "./components/Result";
 
