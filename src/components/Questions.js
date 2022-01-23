@@ -16,6 +16,7 @@ const Questions = () => {
     <>
       <div>
         <Ques
+          setQuestion={setQuestion}
           questions={Q}
           Flag={setFlag}
           Skip={setSkip}

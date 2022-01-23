@@ -1,7 +1,6 @@
-import React from "react";
 import { useState, useEffect } from "react";
 
-export default (initialQues) => {
+const Quiz = (initialQues) => {
   const [Q, setQ] = useState(initialQues);
 
   useEffect(() => {
@@ -46,3 +45,5 @@ export default (initialQues) => {
     },
   };
 };
+
+export default Quiz;

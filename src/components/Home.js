@@ -8,7 +8,7 @@ import img1 from "../img/img1.png";
 
 const Home = () => {
   const [name, updateName] = useState("");
-
+  //eslint-disable-next-line
   const [questions, updateQuestions] = useState([
     {
       quesNo: 1,
@@ -127,8 +127,8 @@ const Home = () => {
   return (
     <>
       <div>
-        <img className="leftImg" src={img1}></img>
-        <img className="rightImg" src={img2}></img>
+        <img alt="pic" className="leftImg" src={img1}></img>
+        <img alt="pic" className="rightImg" src={img2}></img>
         <h1 className="title">Quiz App</h1>
         <div className="input">
           <input
@@ -158,7 +158,7 @@ const Home = () => {
         </div>
       </div>
       <footer className="down">
-        <img className="bottomImg" src={img4}></img>
+        <img alt="pic" className="bottomImg" src={img4}></img>
       </footer>
     </>
   );
