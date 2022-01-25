@@ -28,15 +28,7 @@ const Ques = ({
     setCQ(JSON.parse(localStorage.getItem("currentQues")));
     localStorage.setItem("Score", JSON.stringify(score));
     //eslint-disable-next-line
-  }, [currentQ]);
-
-  // const setTheFlag = (obj) => {
-  //   const t = questions.map((r) =>
-  //     r.quesNo === obj ? { ...r, flagged: !r.flagged } : r
-  //   );
-  //   updateQuestions(t);
-  //   console.log(t);
-  // };
+  }, [currentQ, questions]);
 
   return (
     <>
@@ -133,13 +125,13 @@ const Ques = ({
             onClick={(e) => {
               q.quesNo !== 1 ? handleClick(q.quesNo - 1) : console.log("over");
             }}
-            className="fa fa-chevron-circle-left fa-5x left"
+            className="fa fa-chevron-circle-left fa-3x left"
           ></i>
           <i
             onClick={(e) => {
               q.quesNo !== 10 ? handleClick(q.quesNo + 1) : console.log("over");
             }}
-            className="fa fa-chevron-circle-right fa-5x right"
+            className="fa fa-chevron-circle-right fa-3x right"
           ></i>
         </div>
       ))}
