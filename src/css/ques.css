@@ -113,7 +113,9 @@
 
 @media (max-width: 876px) {
   .end {
-    display: none;
+    top: 39rem;
+    right: 35%;
+    margin-bottom: 1rem;
   }
   .Qpanel {
     min-width: 90%;
