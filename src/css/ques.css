@@ -143,8 +143,10 @@
     overflow-x: auto;
     padding: 1.2rem 0;
   }
-  .left,
+  .left {
+    top: 27rem;
+  }
   .right {
-    top: 60%;
+    top: 27rem;
   }
 }
