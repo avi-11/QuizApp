@@ -12,7 +12,8 @@ const Home = () => {
   const [questions, updateQuestions] = useState([
     {
       quesNo: 1,
-      question: "how are u",
+      question:
+        "In which decade with the first transatlantic radio broadcast occur?",
       options: ["fine", "not fine", "ok", "done"],
       answer: 0,
       skipped: false,
@@ -129,7 +130,7 @@ const Home = () => {
       <div>
         <img alt="pic" className="leftImg" src={img1}></img>
         <img alt="pic" className="rightImg" src={img2}></img>
-        <h1 className="title">Quiz App</h1>
+        <h1 className="title">Quizzinga Dinga</h1>
         <div className="input">
           <input
             className="name"

@@ -32,7 +32,6 @@
 
 .option:hover {
   transform: scale(1.1);
-  background-color: #e7d533;
 }
 
 .questionNo {
@@ -62,19 +61,15 @@
 
 .left {
   position: absolute;
-  top: 40%;
+  top: 50%;
   margin-left: 5rem;
 }
 
 .right {
   position: absolute;
-  top: 40%;
+  top: 50%;
   right: 0;
   margin-right: 5rem;
-}
-
-.Qpanel {
-  min-width: 70%;
 }
 
 .flag {
@@ -100,8 +95,8 @@
 .end {
   display: inline-block;
   position: absolute;
-  right: 2rem;
-  top: 3rem;
+  top: 49rem;
+  right: 45%;
   font-size: 1.1rem;
   color: white;
   background: blueviolet;
@@ -111,15 +106,13 @@
   margin: 1rem;
 }
 
-@media (max-width: 876px) {
+@media (max-width: 576px) {
   .end {
     top: 39rem;
     right: 30%;
     margin-bottom: 1rem;
   }
-  .Qpanel {
-    min-width: 90%;
-  }
+
   .flag {
     position: relative;
     top: 4rem;
@@ -150,5 +143,53 @@
   }
   .right {
     top: 27rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 876px) {
+  .end {
+    top: 39rem;
+    right: 40%;
+    margin-bottom: 1rem;
+  }
+
+  .flag {
+    position: relative;
+    top: 5rem;
+    left: 10%;
+  }
+  .skip {
+    position: absolute;
+    top: 5rem;
+    right: 10%;
+  }
+  .question {
+    font-size: 2rem;
+    padding: 0.5rem 0;
+  }
+  .option {
+    min-width: 24rem;
+    padding: 0.5rem 3rem;
+    margin: 1rem;
+  }
+  .pagNo {
+    margin: 3rem 4rem;
+    display: block;
+    overflow-x: auto;
+    padding: 1.2rem 0;
+  }
+  .left {
+    top: 18rem;
+    margin-left: 10%;
+  }
+  .right {
+    top: 18rem;
+    margin-right: 10%;
+  }
+}
+
+@media (min-width: 876px) and (max-width: 1024px) {
+  .end {
+    right: 40%;
   }
 }
