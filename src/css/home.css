@@ -3,10 +3,16 @@ body {
 }
 
 .title {
-  color: white;
+  color: #b1f3ff;
   font-weight: bolder;
   text-align: center;
   margin: 3rem;
+  transform: rotateZ(-10deg);
+  transition-duration: 1s;
+}
+
+.title:hover{
+  transform: rotateZ(10deg);
 }
 
 .input {
@@ -39,7 +45,7 @@ body {
 }
 
 .start:hover {
-  background-color: rgb(53, 51, 51);
+  background-color: #34e4eb;
   transform: scale(1.1);
 }
 
