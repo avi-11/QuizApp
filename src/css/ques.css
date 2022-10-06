@@ -79,7 +79,7 @@
 }
 
 .flagged {
-  background-color: hotpink;
+  background-color: rgb(175, 71, 255);
 }
 
 .skip {
@@ -103,7 +103,13 @@
   text-decoration: none;
   padding: 1rem 1.5rem;
   border-radius: 4px;
-  margin: 1rem;
+  margin: 2rem;
+  transform: rotateZ(-15deg);
+  transition-duration: 1s;
+}
+
+.end:hover{
+  transform: rotateZ(15deg);
 }
 
 @media (max-width: 576px) {
