@@ -63,6 +63,11 @@
   position: absolute;
   top: 50%;
   margin-left: 5rem;
+  transition-duration: 1s;
+}
+
+.left:hover{
+  transform: scale(1.2);
 }
 
 .right {
@@ -70,6 +75,12 @@
   top: 50%;
   right: 0;
   margin-right: 5rem;
+  transition-duration: 1s;
+  
+}
+
+.right:hover{
+  transform: scale(1.2);
 }
 
 .flag {
@@ -86,6 +97,11 @@
   position: absolute;
   top: 6.2rem;
   right: 20%;
+  transition-duration: 1s;
+}
+
+.skip:hover{
+  transform: scale(1.1);
 }
 
 .disable {
