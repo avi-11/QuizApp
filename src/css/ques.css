@@ -6,7 +6,7 @@
 
 .question {
   font-size: 3rem;
-  background-color: whitesmoke;
+  background-color: rgb(124, 37, 127);
   border-radius: 12px;
 
   text-align: center;
@@ -90,7 +90,7 @@
 }
 
 .flagged {
-  background-color: rgb(175, 71, 255);
+  background-color: rgb(255, 247, 0);
 }
 
 .skip {
