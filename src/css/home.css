@@ -1,5 +1,5 @@
 body {
-  background-color: #202f7d;
+  background-color: #8b5c57;
 }
 
 .title {
@@ -45,7 +45,7 @@ body {
 }
 
 .start:hover {
-  background-color: #34e4eb;
+  background-color: #f0ce85;
   transform: scale(1.1);
 }
 
