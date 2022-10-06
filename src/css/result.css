@@ -4,14 +4,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: antiquewhite;
+    border-radius: 1rem;
+    padding: 2rem;
 }
 
 .reset {
   font-size: 1.1rem;
   color: white;
-  background: blueviolet;
+  background: rgb(64, 43, 226);
   text-decoration: none;
   padding: 1rem 1.5rem;
   border-radius: 4px;
   margin: 1rem;
+  transition-duration: 1s;
+}
+
+.reset:hover{
+  transform: scale(1.1);
+  background: rgb(108, 91, 233);
 }
