@@ -12,8 +12,8 @@ const Home = () => {
   const [questions, updateQuestions] = useState([
     {
       quesNo: 1,
-      question:
-        "In which decade with the first transatlantic radio broadcast occur?",
+      question: "How are you?"
+        ,
       options: ["fine", "not fine", "ok", "done"],
       answer: 0,
       skipped: false,
@@ -23,9 +23,9 @@ const Home = () => {
     },
     {
       quesNo: 2,
-      question: "how are uu",
-      options: ["not fine", "fine", "ok", "done"],
-      answer: 1,
+      question: "Have you done any projects till now?",
+      options: ["yes", "no", "thinking to do", "done"],
+      answer: 0,
       skipped: false,
       flagged: false,
       attempted: false,
@@ -33,8 +33,8 @@ const Home = () => {
     },
     {
       quesNo: 3,
-      question: "how are uuu",
-      options: ["fine", "not fine", "ok", "done"],
+      question: "what is basic pre-requisite for web development?",
+      options: ["HTML", "Python", "flutter", "none"],
       answer: 0,
       skipped: false,
       flagged: false,
@@ -43,9 +43,9 @@ const Home = () => {
     },
     {
       quesNo: 4,
-      question: "how are uuuu",
-      options: ["fine", "not fine", "ok", "done"],
-      answer: 0,
+      question: "next step in web development after Learning HTML",
+      options: ["js", "css", "bootstrap", "none"],
+      answer: 1,
       skipped: false,
       flagged: false,
       attempted: false,
@@ -53,8 +53,8 @@ const Home = () => {
     },
     {
       quesNo: 5,
-      question: "how are uuuu",
-      options: ["fine", "not fine", "ok", "done"],
+      question: "javascript is a ____type of language",
+      options: ["scripting", "programming", "markup", "none"],
       answer: 0,
       skipped: false,
       flagged: false,
@@ -64,9 +64,9 @@ const Home = () => {
 
     {
       quesNo: 6,
-      question: "how are uuuu",
-      options: ["fine", "not fine", "ok", "done"],
-      answer: 0,
+      question: "ES in js stands for ?",
+      options: ["e-script", "external-script", "ecma-script", "none"],
+      answer: 2,
       skipped: false,
       flagged: false,
       attempted: false,
@@ -74,8 +74,8 @@ const Home = () => {
     },
     {
       quesNo: 7,
-      question: "how are uuuu",
-      options: ["fine", "not fine", "ok", "done"],
+      question: "js is used in_______development",
+      options: ["front-end", "back-end", "android", "ios"],
       answer: 0,
       skipped: false,
       flagged: false,
@@ -84,9 +84,9 @@ const Home = () => {
     },
     {
       quesNo: 8,
-      question: "how are uuuu",
-      options: ["fine", "not fine", "ok", "done"],
-      answer: 0,
+      question: "bootstrap is made by_______",
+      options: ["facebook", "instagram", "google", "twitter"],
+      answer: 3,
       skipped: false,
       flagged: false,
       attempted: false,
@@ -94,9 +94,9 @@ const Home = () => {
     },
     {
       quesNo: 9,
-      question: "how are uuuu",
-      options: ["fine", "not fine", "ok", "done"],
-      answer: 0,
+      question: "H in HTML refers to ?",
+      options: ["hemi", "hype", "hyper", "hosted"],
+      answer: 2,
       skipped: false,
       flagged: false,
       attempted: false,
@@ -104,8 +104,8 @@ const Home = () => {
     },
     {
       quesNo: 10,
-      question: "how are uuuu",
-      options: ["fine", "not fine", "ok", "done"],
+      question: "have you leart something new from this quiz ?",
+      options: ["yes", "no", "already-known", "prefer not to say"],
       answer: 0,
       skipped: false,
       flagged: false,
