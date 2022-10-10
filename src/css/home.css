@@ -58,6 +58,17 @@ body {
 .rightImg {
   position: absolute;
   right: 0;
+  color: aliceblue;
+    background: aqua;
+    border-radius: 2rem;
+    box-shadow: 0px 2px 4px black;
+}
+
+.leftImg{
+  color: aliceblue;
+    background: aqua;
+    border-radius: 2rem;
+    box-shadow: 0px 2px 4px black;
 }
 
 .bottomImg {
