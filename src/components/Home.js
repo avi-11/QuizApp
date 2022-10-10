@@ -130,7 +130,7 @@ const Home = () => {
       <div>
         <img alt="pic" className="leftImg" src={img1}></img>
         <img alt="pic" className="rightImg" src={img2}></img>
-        <h1 className="title">Quiz.ly</h1>
+        <h1 className="title">Ex Quizit.ly</h1>
         <div className="input">
           <input
             className="name"
