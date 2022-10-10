@@ -23,7 +23,7 @@ const Home = () => {
     },
     {
       quesNo: 2,
-      question: "how are uu",
+      question: "what does otrovan mean",
       options: ["not fine", "fine", "ok", "done"],
       answer: 1,
       skipped: false,
@@ -33,7 +33,7 @@ const Home = () => {
     },
     {
       quesNo: 3,
-      question: "how are uuu",
+      question: "first man to travel space",
       options: ["fine", "not fine", "ok", "done"],
       answer: 0,
       skipped: false,
@@ -43,7 +43,7 @@ const Home = () => {
     },
     {
       quesNo: 4,
-      question: "how are uuuu",
+      question: "Who was first man to travel north pole",
       options: ["fine", "not fine", "ok", "done"],
       answer: 0,
       skipped: false,
@@ -53,7 +53,7 @@ const Home = () => {
     },
     {
       quesNo: 5,
-      question: "how are uuuu",
+      question: "Who is father of India",
       options: ["fine", "not fine", "ok", "done"],
       answer: 0,
       skipped: false,
@@ -64,7 +64,7 @@ const Home = () => {
 
     {
       quesNo: 6,
-      question: "how are uuuu",
+      question: "how many legs does sentipede has",
       options: ["fine", "not fine", "ok", "done"],
       answer: 0,
       skipped: false,
@@ -74,7 +74,7 @@ const Home = () => {
     },
     {
       quesNo: 7,
-      question: "how are uuuu",
+      question: "who is iron man of India",
       options: ["fine", "not fine", "ok", "done"],
       answer: 0,
       skipped: false,
@@ -84,7 +84,7 @@ const Home = () => {
     },
     {
       quesNo: 8,
-      question: "how are uuuu",
+      question: "how big is burj Khalifa",
       options: ["fine", "not fine", "ok", "done"],
       answer: 0,
       skipped: false,
@@ -94,7 +94,7 @@ const Home = () => {
     },
     {
       quesNo: 9,
-      question: "how are uuuu",
+      question: "how many days are in one leap year",
       options: ["fine", "not fine", "ok", "done"],
       answer: 0,
       skipped: false,
@@ -104,7 +104,7 @@ const Home = () => {
     },
     {
       quesNo: 10,
-      question: "how are uuuu",
+      question: "what is full form of MERN",
       options: ["fine", "not fine", "ok", "done"],
       answer: 0,
       skipped: false,
