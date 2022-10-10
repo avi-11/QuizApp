@@ -6,13 +6,14 @@ const Result = () => {
   return (
     <>
       <div className="result">
-        <h1>Bravo my friend {JSON.parse(localStorage.getItem("Name"))}</h1>
+        <h1>Congrats {JSON.parse(localStorage.getItem("Name"))}</h1>
+        <p>You've done a great job gal</p>
         <h2>Woohooo! you got a score of {JSON.parse(localStorage.getItem("Score"))} points.</h2>
         <Link className="reset" to={"/"}>
           Reset
         </Link>
         <Link className="reset" to={"/Questions"}>
-          Review
+          Recheck
         </Link>
       </div>
     </>
