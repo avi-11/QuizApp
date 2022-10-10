@@ -1,18 +1,18 @@
 body {
-  background-color: #8b5c57;
+  background-color: #093372;
 }
 
 .title {
-  color: #b1f3ff;
-  font-weight: bolder;
+  color: #49c9e0;
+  font-weight: 700;
   text-align: center;
   margin: 3rem;
-  transform: rotateZ(-10deg);
+  transform: rotateZ(-5deg);
   transition-duration: 1s;
 }
 
 .title:hover{
-  transform: rotateZ(10deg);
+  transform: rotateZ(5deg);
 }
 
 .input {
